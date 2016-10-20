@@ -51,7 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Enumerations\EMailTemplateType.cs" />
     <Compile Include="GetBannerData_sp_Result.cs">
       <DependentUpon>TalentPoolModel.tt</DependentUpon>
     </Compile>

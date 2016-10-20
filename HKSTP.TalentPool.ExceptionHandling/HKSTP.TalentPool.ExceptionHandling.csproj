@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D50DFD8F-4A11-46F9-B56B-DB53A79A3A30}</ProjectGuid>
+    <ProjectGuid>{F2E7A6A3-9BA1-4EEC-A187-4ABB4EBBFAEB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>HKSTP.TalentPool.Business</RootNamespace>
-    <AssemblyName>HKSTP.TalentPool.Business</AssemblyName>
+    <RootNamespace>HKSTP.TalentPool.ExceptionHandling</RootNamespace>
+    <AssemblyName>HKSTP.TalentPool.ExceptionHandling</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,12 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
     <Reference Include="System" />
-    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.Entity" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,31 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EmailScheduler.cs" />
-    <Compile Include="EMailManager.cs" />
-    <Compile Include="EMailTemplateManager.cs" />
+    <Compile Include="ExceptionHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.Config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\HKSTP.TalentPool.Entities\HKSTP.TalentPool.Entities.csproj">
-      <Project>{9ac012db-9e83-418d-8b08-8acf7a1f9ce9}</Project>
-      <Name>HKSTP.TalentPool.Entities</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\HKSTP.TalentPool.ExceptionHandling\HKSTP.TalentPool.ExceptionHandling.csproj">
-      <Project>{f2e7a6a3-9ba1-4eec-a187-4abb4ebbfaeb}</Project>
-      <Name>HKSTP.TalentPool.ExceptionHandling</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="EmailTemplates\ScheduledMessage.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="EmailTemplates\SubscriptionMessage.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

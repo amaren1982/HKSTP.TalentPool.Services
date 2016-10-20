@@ -3,11 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKSTP.TalentPool.Services", "HKSTP.TalentPool.Services\HKSTP.TalentPool.Services.csproj", "{233F87F5-649F-4251-93E4-7EF7D3FE6AC1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKSTP.TalentPool.Business", "HKSTP.TalentPool.Business\HKSTP.TalentPool.Business.csproj", "{D50DFD8F-4A11-46F9-B56B-DB53A79A3A30}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKSTP.TalentPool.Entities", "HKSTP.TalentPool.Entities\HKSTP.TalentPool.Entities.csproj", "{9AC012DB-9E83-418D-8B08-8ACF7A1F9CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKSTP.TalentPool.Web", "HKSTP.TalentPool.Web\HKSTP.TalentPool.Web.csproj", "{1C406C42-94D2-4E2D-9076-B775DF7C0DF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKSTP.TalentPool.ExceptionHandling", "HKSTP.TalentPool.ExceptionHandling\HKSTP.TalentPool.ExceptionHandling.csproj", "{F2E7A6A3-9BA1-4EEC-A187-4ABB4EBBFAEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKSTP.TalentPool.SubcriptionServices", "HKSTP.TalentPool.SubcriptionServices\HKSTP.TalentPool.SubcriptionServices.csproj", "{C96D8CB4-DC86-4F8C-A6B8-CE2E60F4D23F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HKSTP.TalentPool.Windows Services Setup", "HKSTP.TalentPool.Windows Services Setup\HKSTP.TalentPool.Windows Services Setup.vdproj", "{11FE4BA5-090C-4478-8211-4DC0A03D5DEB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HKSTP.TalentPool.Related Job Services", "HKSTP.TalentPool.Related Job Services\HKSTP.TalentPool.Related Job Services.csproj", "{6549BF19-41F2-4740-948F-F17A1DA7C1EA}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HKSTP.TalentPool.Related Job Windows Services Setup", "HKSTP.TalentPool.Related Job Windows Services Setup\HKSTP.TalentPool.Related Job Windows Services Setup.vdproj", "{CF29D49F-BA3B-41CC-A2A3-1E1B758D7BAF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{233F87F5-649F-4251-93E4-7EF7D3FE6AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{233F87F5-649F-4251-93E4-7EF7D3FE6AC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{233F87F5-649F-4251-93E4-7EF7D3FE6AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{233F87F5-649F-4251-93E4-7EF7D3FE6AC1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D50DFD8F-4A11-46F9-B56B-DB53A79A3A30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D50DFD8F-4A11-46F9-B56B-DB53A79A3A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D50DFD8F-4A11-46F9-B56B-DB53A79A3A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +33,28 @@ Global
 		{9AC012DB-9E83-418D-8B08-8ACF7A1F9CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AC012DB-9E83-418D-8B08-8ACF7A1F9CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AC012DB-9E83-418D-8B08-8ACF7A1F9CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C406C42-94D2-4E2D-9076-B775DF7C0DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C406C42-94D2-4E2D-9076-B775DF7C0DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C406C42-94D2-4E2D-9076-B775DF7C0DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C406C42-94D2-4E2D-9076-B775DF7C0DF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E7A6A3-9BA1-4EEC-A187-4ABB4EBBFAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E7A6A3-9BA1-4EEC-A187-4ABB4EBBFAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E7A6A3-9BA1-4EEC-A187-4ABB4EBBFAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E7A6A3-9BA1-4EEC-A187-4ABB4EBBFAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C96D8CB4-DC86-4F8C-A6B8-CE2E60F4D23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C96D8CB4-DC86-4F8C-A6B8-CE2E60F4D23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C96D8CB4-DC86-4F8C-A6B8-CE2E60F4D23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C96D8CB4-DC86-4F8C-A6B8-CE2E60F4D23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11FE4BA5-090C-4478-8211-4DC0A03D5DEB}.Debug|Any CPU.ActiveCfg = Debug
+		{11FE4BA5-090C-4478-8211-4DC0A03D5DEB}.Debug|Any CPU.Build.0 = Debug
+		{11FE4BA5-090C-4478-8211-4DC0A03D5DEB}.Release|Any CPU.ActiveCfg = Release
+		{11FE4BA5-090C-4478-8211-4DC0A03D5DEB}.Release|Any CPU.Build.0 = Release
+		{6549BF19-41F2-4740-948F-F17A1DA7C1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6549BF19-41F2-4740-948F-F17A1DA7C1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6549BF19-41F2-4740-948F-F17A1DA7C1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6549BF19-41F2-4740-948F-F17A1DA7C1EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF29D49F-BA3B-41CC-A2A3-1E1B758D7BAF}.Debug|Any CPU.ActiveCfg = Debug
+		{CF29D49F-BA3B-41CC-A2A3-1E1B758D7BAF}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
